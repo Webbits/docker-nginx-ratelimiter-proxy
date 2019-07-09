@@ -1,6 +1,6 @@
-# Docker nginx env container
+# NGINX Rate Limiter proxy
 
-Docker image for running nginx with env variables in the conf. It forwards all requests to your configured proxy pass url. It uses [nginx rate limiting](https://www.nginx.com/blog/rate-limiting-nginx/) to limit the number of requests that are actually being send through.
+Dockerized nginx proxy which applies a rate limit. It forwards all requests to your configured proxy pass url. It uses [nginx rate limiting](https://www.nginx.com/blog/rate-limiting-nginx/) to limit the number of requests that are actually being send through.
 
 ## Usage
 
