@@ -1,4 +1,4 @@
-FROM nginx:1.17
+FROM nginx:1.17-alpine
 
 LABEL maintainer="Boyd Lamers <boyd@webbits.nl>"
 
