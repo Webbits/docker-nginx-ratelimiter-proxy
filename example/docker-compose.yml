@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  ratelimit-proxy:
+    build: ./..
+    ports:
+      - 8998:80
+    environment:
+      PROXY_LIMIT_ZONE_NAME: examplecom
+      PROXY_REQUESTS_PER_SECOND_LIMIT: 1
+      PROXY_BURST: 2
